@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- chap 43-48# -->
+    <!-- task 1 -->
+    <a href="#" onclick="task1()"> click </a>
+    <!-- task2 -->
+    <div class="task2">
+        <img src="https://www.whatmobile.com.pk/admin/images/Xiaomi/XiaomiMi9-b.jpg" alt="" width="200px" height="300px"
+            onclick="task2()">
+        <img src="https://www.91-img.com/pictures/133188-v4-oppo-f11-mobile-phone-large-1.jpg" alt="" width="200px"
+            height="300px" onclick="task2()">
+        <img src="https://static.toiimg.com/photo/73078527.cms" alt="" width="200px" height="300px" onclick="task2()">
+        <img src="https://www.whatmobile.com.pk/admin/images/Tecno/TecnoSpark4Lite-b.jpg" alt="" width="200px"
+            height="300px" onclick="task2()">
+    </div>
+    <!-- task3 -->
+    <table id="Table">
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="index">0</td>
+                <td>Jhone</td>
+                <td>10</td>
+                <td><button onclick="Delete(1)">delete</button></td>
+            </tr>
+            <tr>
+                <td id="index">1</td>
+                <td>Doe</td>
+                <td>9</td>
+                <td><button onclick="Delete(2)">delete</button></td>
+            </tr>
+            <tr>
+                <td id="index">2</td>
+                <td>mark</td>
+                <td>10</td>
+                <td><button onclick="Delete(3)">delete</button></td>
+            </tr>
+            <tr>
+                <td id="index">3</td>
+                <td>james</td>
+                <td>9</td>
+                <td><button onclick="Delete(4)">delete</button></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+
+    <!-- task 4 -->
+    <img class="task4" src="https://www.whatmobile.com.pk/admin/images/Xiaomi/XiaomiMi9-b.jpg"
+        onmouseover="src='https://www.91-img.com/pictures/133188-v4-oppo-f11-mobile-phone-large-1.jpg' "
+        onmouseout='src="https://www.whatmobile.com.pk/admin/images/Xiaomi/XiaomiMi9-b.jpg"' alt="">
+
+    <!-- task 5 -->
+    <div class="task5">
+        <button onclick="increase()">increase</button>
+        <p id="vaLue">0</p> <button onclick="decrease()">decrease</button>
+    </div>
+
+    <!-- chapter 49-52 -->
+    <!-- task1 -->
+    <!-- <div>
+    <div class="signup">
+        <h3>Sign Up</h3>
+        <div class="name">
+            <input type="text" placeholder="name">
+            <input type="text" placeholder="full name">
+
+        </div>
+        <input type="text" placeholder="Email">
+        <input type="password" placeholder="Password">
+
+
+
+    </div>
+    <div class="data">
+        <h3>data</h3>
+        <h6>email</h6>
+        <h6></h6>
+
+
+    </div>
+</div> -->
+    <!-- task2 -->
+    <h2>
+        detail of product
+    </h2>
+    <p id="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cupiditate aperiam
+        veritatis?<a href="javascript:void(0)" onclick="expand()">see more</a></p>
+
+    <!-- chap 58-67 -->
+    <div>
+        <h1> DOM </h1>
+        <div id="form-content" class="content"> 
+            <label for="first-name">First Name</label><input type="text" id="first-name" /> 
+            <label for="last-name">Last Name</label> <input type="text" id="last-name" /> 
+            <label for="email">Email</label> <input type="text" id="email" /> </div>
+        <div id="main-content" class="content">
+            <p class="render"> First Name : Alex</p>
+            <p class="render" id="lastName">Last Name: Bank</p>
+            <p class="render"> Email : alexbank@example.com</p>
+            <p class="render"> Country : Pakistan </p>
+            <p class="render"> contact : +92 300 1234567</p>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+
+</html>

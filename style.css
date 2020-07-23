@@ -1,0 +1,37 @@
+.task2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.task5 {
+    display: flex;
+
+}
+
+.task5 button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* .signup {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 300px;
+    margin: 10px auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+}
+.name{
+    justify-content: space-between;
+    display: flex;
+}
+.signup input {
+    width: 200px;
+    height: 30px; 
+    margin-right: 10px;
+} */
+
